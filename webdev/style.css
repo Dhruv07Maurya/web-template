@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+}
+.nav1 {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  /* scrollbar-width: 1px; */
+}
+.box {
+  width: 250px;
+  height: 250px;
+  background-color: rebeccapurple;
+}
+.h1 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 50px;
+  color: wheat;
+  font-size: 1rem;
+  margin-left: 10px;
+}
+.nav2 {
+  /* background-color:rgb(24, 23, 23); */
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+.nav3 {
+  /* background-color:rgb(41, 40, 40); */
+  height: 100%;
+  width: 100%;
+  /* overflow: hidden; */
+}
+.nav4 {
+  /* background-color:rgb(53, 53, 53); */
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+.box1 {
+  margin-left: 50px;
+  width: 250px;
+  height: 250px;
+  background-color: rebeccapurple;
+  margin-top: 40px;
+}
+.box2 {
+  width: 250px;
+  height: 250px;
+  background-color: rebeccapurple;
+  margin-left: 1000px;
+  margin-top: 80px;
+}
+.box3 {
+  margin-left: 50px;
+  width: 250px;
+  height: 250px;
+  background-color: rebeccapurple;
+  margin-top: 40px;
+}
+.msg {
+  margin-top: 4rem;
+  width: 100%;
+  height: 18rem;
+  /* background-color: red; */
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+  overflow-x: hidden;
+}
+.msg h2 {
+  color: white;
+  font-size: 13rem;
+  /* transform: translateX(150%); */
+}
+.string {
+  /* background-color: rebeccapurple; */
+  position: absolute;
+  top: 1px;
+}
+.cnt {
+  height: 100px;
+  width: 100%;
+  background-color: rgb(95, 250, 23);
+  display: flex;
+  overflow: hidden;
+}
+.mar{
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  transform: translateX(-110%);
+  gap: 3vw;
+  padding: 0 1.5vw;
+}
+.mar h2 {
+  /* flex-shrink: 0; */
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 5vw;
+}
+.mar img {
+  height: 100px;
+  width: 100px;
+  /* background-color: #c02828; */
+  object-fit: cover;
+}
+
